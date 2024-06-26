@@ -21,16 +21,6 @@
 - **Mock Technical Interview** https://intranet.alxswe.com/rltoken/vKf7Spm4xxFMom3x4Jx52g
 
 
-## Resources
-- **What is Pascal’s triangle**
-- **Pascal’s Triangle - Numberphile**
-- **What are Python Algorithms**
-
-## Additional Resources
-- **Mock Technical Interview**
-
-
-
 # Must Know
 
 To successfully complete this project, you should revise the following Python concepts:

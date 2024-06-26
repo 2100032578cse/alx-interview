@@ -7,8 +7,6 @@
 - **Weight**: 1
 - **Project will start**: Jun 24, 2024 9:30 AM
 - **Must end by**: Jun 28, 2024 9:30 AM
-- **Checker was released at**: Jun 25, 2024 9:30 AM
-- **An auto review will be launched at the deadline**
 
 ## Resources
 

@@ -1,17 +1,25 @@
 #!/usr/bin/python3
+""" the module for the task 0, 0-minoperations"""
+
+
 def minOperations(n):
     """
-    func to get few # of operations needed to result in n H chars
+    minOperations
+    Gets fewest # of operations needed to result in exactly n H characters
     """
-    if n < 2:
+    # all outputs should be at least 2 char: (min, Copy All => Paste)
+    if (n < 2):
         return 0
-
-    total_ops = 0
-
-    # Iterate over possible divisors from 2 to n
-    for divisor in range(2, n + 1):
-        # Repeatedly divide n by the current divisor
-        while n % divisor == 0:
-            total_ops = total_ops + divisor
-            n //= divisor
-    return total_ops
+    ops, root = 0, 2
+    while root <= n:
+        # if n evenly divides by root
+        if n % root == 0:
+            # total even-divisions by root = total operations
+            ops += root
+            # set n to the remainder
+            n = n / root
+            # reduce root to find remaining  vals that divide n
+            root -= 1
+        # increment root until it evenly-divides n
+        root += 1
+    return ops

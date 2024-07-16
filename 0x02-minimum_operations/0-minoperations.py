@@ -18,7 +18,7 @@ def minOperations(n):
             ops += root
             # set n to the remainder
             n = n / root
-            # reduce root to find remaining  vals that divide n
+            # reduce root to find remaining  vals that divide n in evenly way
             root -= 1
         # increment root until it evenly-divides n
         root += 1

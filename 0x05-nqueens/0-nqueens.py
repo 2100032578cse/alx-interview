@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-n queens question
+Solving n queens question
 """
 import sys
 

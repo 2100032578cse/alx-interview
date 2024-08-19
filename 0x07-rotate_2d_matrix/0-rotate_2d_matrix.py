@@ -1,6 +1,12 @@
 #!/usr/bin/python3
+"""
+rotate 2d matric
+"""
+
+
 def rotate_2d_matrix(matrix):
-    """rotate two dimension matrix 90 degrees clockwise
+    """
+    rotate two dimension matrix 90 degrees clockwise
     Args:
         matrix (list[[list]]): a matrix
     """

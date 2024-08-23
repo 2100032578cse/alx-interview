@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 
-""" Contains makeChange function"""
+"""
+Contains makeChange function
+"""
 
 
 def makeChange(coins, total):

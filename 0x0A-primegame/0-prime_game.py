@@ -1,6 +1,12 @@
 #!/usr/bin/python3
+"""
+prime game
+"""
+
+
 def isWinner(x, nums):
-    """x - rounds
+    """
+    x - rounds
     nums - numbers list
     """
     if x <= 0 or nums is None:
